@@ -8,7 +8,8 @@
       "name": "linkedin",
       "source": "./linkedin",
       "description": "[CUSTOMIZATION NEEDED]. Write and gatekeep LinkedIn posts in your configured voice and according to your editorial gate. Modify references to fit your needs.",
-      "strict": false
+      "strict": false,
+      "skills": "./"
     }
   ]
 }
