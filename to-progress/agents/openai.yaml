@@ -1,0 +1,5 @@
+interface:
+  display_name: "To Progress"
+  short_description: "Turn tickets into a progress.md ledger for an orchestrating agent"
+policy:
+  allow_implicit_invocation: false
