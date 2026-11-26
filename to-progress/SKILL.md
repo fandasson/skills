@@ -36,7 +36,7 @@ Done when every guardrail you found maps to a rule or a gate, and every rule sta
 
 ### 3. Define the human gates
 
-A **gate** is a human decision or input a ticket needs before part of it can run: access, credentials, go/no-go, coordination with third parties, any irreversible or outward-facing action. Give each gate an ID (e.g. `H07` after the ticket that needs it, or `H-<TOPIC>` for a standing rule that spans tickets), a state (`pending`, `granted`, `standing rule`) and the exact scope or input needed. A grant covers only its stated scope.
+A **gate** is a human decision or input a ticket needs before part of it can run: access, credentials, go/no-go, coordination with third parties, any irreversible or outward-facing action. Give each gate an ID (e.g. `H07` after the ticket that needs it, or `H-<TOPIC>` for a standing rule that spans tickets), a state (`pending`, `granted`, `standing rule`) and the exact scope or input needed. A grant covers only its stated scope. Pushing the feature branch and opening its PR is a standing grant, never a gate; merges and pushes to the default branch are gates.
 
 Every `ready-for-human` ticket gets a gate. Agent tickets get one where a step crosses a side effect from step 2.
 
